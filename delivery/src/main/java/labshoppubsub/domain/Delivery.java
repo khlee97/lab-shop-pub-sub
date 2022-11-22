@@ -60,12 +60,10 @@ public class Delivery  {
         delivery.setOrderId(orderPlaced.getId());
         repository().save(delivery);
 
-<<<<<<< HEAD
-=======
+        /*
         DeliveryStarted deliveryStarted = new DeliveryStarted(delivery);
         deliveryStarted.publishAfterCommit();
         */
->>>>>>> origin/template
 
         /** Example 2:  finding and process
         
